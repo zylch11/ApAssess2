@@ -26,7 +26,7 @@ namespace ApAssess2
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddEntityFrameworkNpgsql().AddDbContext<ApplicationDbContext>( options =>
+            services.AddDbContext<ApplicationDbContext>( options =>
             options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
         }
 
