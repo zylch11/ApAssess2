@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ApAssess2.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace ApAssess2.Data {
@@ -12,6 +13,8 @@ namespace ApAssess2.Data {
         {
             
         }
+
+        public DbSet<Category> Category { get; set; }
         
     }
 
