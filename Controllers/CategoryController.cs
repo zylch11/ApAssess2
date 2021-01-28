@@ -6,7 +6,7 @@ using ApAssess2.Data;
 using ApAssess2.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace testPostgreSQL.Controllers
+namespace ApAssess2.Controllers
 {
     public class CategoryController : Controller
     {
