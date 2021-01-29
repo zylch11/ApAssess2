@@ -40,3 +40,5 @@ Learning Objectives:
 => SweetAlert2 JavaScript library
 
 => Eager Loading
+
+=> Partial Views
