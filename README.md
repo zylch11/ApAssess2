@@ -42,3 +42,5 @@ Learning Objectives:
 => Eager Loading
 
 => Partial Views
+
+=> Sessions in ASP.NET Core

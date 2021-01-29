@@ -12,3 +12,5 @@ Read Documentation For:
 => Dynamic Properties in C#
 => how to upload files in ASP.NET Core/C#
 => Eager Loading
+=> Sessions, extension methods on sessions
+=> Serialization/De-Serialization
